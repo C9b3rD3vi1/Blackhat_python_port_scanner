@@ -7,4 +7,4 @@ This is a Black hat python port scanner that I build when learning Black hat pyt
 ![  Portscanner sample](/portscanner.png)
 
 ##video sample
-![port scanner video](.mkv)(/port_scanner.mkv)
+![ port scanner demo video](.mkv)(Python3/Blackhat_python_port_scanner/port_scanner.mkv)
