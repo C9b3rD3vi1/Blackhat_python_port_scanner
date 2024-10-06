@@ -8,7 +8,6 @@ from colorama import Fore, Style
 
 
 
-
 # ascii banner
 ascii_banner = pyfiglet.figlet_format("Cyberlock Hacker")
 print(Fore.LIGHTCYAN_EX + ascii_banner)
@@ -41,7 +40,7 @@ def main_start():
     print(f"{Fore.YELLOW} Current time: {time.ctime()}")
     print("\n")
     ip = input(" [~] Enter a target ip address :")
-    port = input(" [~] Enter port to connect :")
+    port = input(" [~] Enter port range to scan :")
     port_range = port.split(":")
     start_port = int(port_range[0])
     end_port = int(port_range[1])

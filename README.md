@@ -4,4 +4,6 @@ This is a Black hat python port scanner that I build when learning Black hat pyt
 
 
 
-![alt](/portscanner.png)
+![  Portscanner sample](/portscanner.png)
+
+![port scanner video](/port_scanner.mkv)
