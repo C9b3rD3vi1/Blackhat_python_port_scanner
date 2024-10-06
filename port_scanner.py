@@ -11,7 +11,7 @@ from colorama import Fore, Style
 
 # ascii banner
 ascii_banner = pyfiglet.figlet_format("Cyberlock Hacker")
-print(ascii_banner)
+print(Fore.LIGHTCYAN_EX + ascii_banner)
 print("Author: @C9b3rD3vi1")
 print("Version: 1.0.0")
 print("Description: Simple python port scanner using multithreading and requests")
@@ -39,7 +39,8 @@ def main_start():
 
     start_time = time.time()
     print(f"{Fore.YELLOW} Current time: {time.ctime()}")
-    ip = input("   [~] Enter a target ip address :")
+    print("\n")
+    ip = input(" [~] Enter a target ip address :")
     port = input(" [~] Enter port to connect :")
     port_range = port.split(":")
     start_port = int(port_range[0])
