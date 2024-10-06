@@ -39,7 +39,7 @@ def main_start():
 
     start_time = time.time()
     print(f"{Fore.YELLOW} Current time: {time.ctime()}")
-    ip = input("[~] Enter a target ip address :")
+    ip = input("   [~] Enter a target ip address :")
     port = input(" [~] Enter port to connect :")
     port_range = port.split(":")
     start_port = int(port_range[0])
