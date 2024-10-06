@@ -3,7 +3,8 @@ This is a Black hat python port scanner that I build when learning Black hat pyt
   Ethical Hacking
 
 
-
+## image sample
 ![  Portscanner sample](/portscanner.png)
 
-![port scanner video](/port_scanner.mkv)
+##video sample
+![port scanner video](.mkv)(/port_scanner.mkv)
