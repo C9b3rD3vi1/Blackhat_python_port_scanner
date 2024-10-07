@@ -9,7 +9,7 @@ from colorama import Fore, Style
 
 
 # ascii banner
-ascii_banner = pyfiglet.figlet_format("Cyberlock Hacker")
+ascii_banner = pyfiglet.figlet_format("C9b3rD3vi1")
 print(Fore.LIGHTCYAN_EX + ascii_banner)
 print("Author: @C9b3rD3vi1")
 print("Version: 1.0.0")
